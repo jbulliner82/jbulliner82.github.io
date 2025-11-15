@@ -1,1 +1,95 @@
-<h1>AI Trading Automation Project</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AI Trading Automation Framework – Joseph Bulliner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <a class="back-link" href="../index.html">← Back to portfolio</a>
+      <div class="header-top">
+        <div>
+          <div class="name">AI Trading Automation Framework</div>
+          <div class="title">Python • Exchange APIs • Strategy Logic • Logging</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="project-layout">
+      <section class="project-meta">
+        <strong>Role:</strong> Independent developer •
+        <strong>Focus:</strong> Signal generation, risk logic, and automated decision flows
+      </section>
+
+      <section class="project-section">
+        <h2>Overview</h2>
+        <p>
+          This project is a Python-based framework for evaluating crypto market conditions and generating trade signals
+          using EMA, MACD-style logic, and multi-candle confirmation. It is designed to be modular, explainable, and easy
+          to extend with additional indicators or rules.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>Key Capabilities</h2>
+        <ul>
+          <li>EMA and MACD-style trend and momentum checks across multiple timeframes.</li>
+          <li>Three-candle confirmation logic to reduce noise and avoid weak signals.</li>
+          <li>Support for live market data via exchange APIs (e.g., Kraken, IBKR).</li>
+          <li>Structured logging of conditions, decisions, and outcomes for review.</li>
+          <li>Configurable strategy parameters for experimentation and tuning.</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>High-Level Flow</h2>
+        <div class="code-block">
+<pre>1. Pull recent OHLCV data from exchange API
+2. Compute EMAs, MACD, and supporting indicators
+3. Evaluate strategy rules:
+   - Trend direction
+   - Momentum confirmation
+   - Volume or volatility filters (where applicable)
+4. Require multi-candle confirmation before marking a valid signal
+5. Log reasoning and output a clear "no-trade" or "candidate" decision</pre>
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h2>Example Pseudocode Snippet</h2>
+        <div class="code-block">
+<pre>for symbol in watchlist:
+    candles = fetch_market_data(symbol)
+    indicators = compute_indicators(candles)
+
+    if is_trend_up(indicators) and has_three_candle_confirmation(indicators):
+        decision = "long_candidate"
+    elif is_trend_down(indicators) and has_three_candle_confirmation(indicators):
+        decision = "short_candidate"
+    else:
+        decision = "no_trade"
+
+    log_decision(symbol, indicators, decision)</pre>
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h2>Outcomes &amp; Learnings</h2>
+        <ul>
+          <li>Developed strong intuition for how indicator-based logic behaves under different market regimes.</li>
+          <li>Built a reusable structure for future automated or semi-automated strategies.</li>
+          <li>Improved logging discipline, making every decision traceable and reviewable.</li>
+          <li>Deepened experience integrating with real-world APIs and handling noisy data.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Part of the AI &amp; Automation Portfolio by Joseph Bulliner
+    </footer>
+  </div>
+</body>
+</html>
