@@ -1,1 +1,81 @@
-<h1>IoT Smart Security System</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>IoT Smart Security System – Joseph Bulliner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <a class="back-link" href="../index.html">← Back to portfolio</a>
+      <div class="header-top">
+        <div>
+          <div class="name">IoT Smart Security System</div>
+          <div class="title">Multi-Device Monitoring • Motion/Object Detection • Alert Logic</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="project-layout">
+      <section class="project-meta">
+        <strong>Role:</strong> Designer &amp; integrator •
+        <strong>Focus:</strong> Practical home security automation and system reliability
+      </section>
+
+      <section class="project-section">
+        <h2>Overview</h2>
+        <p>
+          This project combines multiple IP cameras, motion detection, and smart alerts into a unified monitoring setup.
+          The goal was to create a practical, configurable security system without relying solely on closed proprietary platforms.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>System Components</h2>
+        <ul>
+          <li>Multiple IP cameras placed across key zones.</li>
+          <li>Local or networked recorder/host system.</li>
+          <li>Detection logic for motion and basic object presence.</li>
+          <li>Configurable notification channels (mobile, desktop, or dashboard).</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>Automation Logic</h2>
+        <div class="code-block">
+<pre>for camera in cameras:
+    frame = capture_frame(camera)
+    if detect_motion(frame, zone=camera.zone):
+        if is_armed() and not recently_alerted(camera.zone):
+            record_clip(camera)
+            send_alert(camera.zone, timestamp())
+            mark_alerted(camera.zone)</pre>
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h2>Key Outcomes</h2>
+        <ul>
+          <li>Learned how to tune sensitivity to avoid false positives (e.g., wind, small animals).</li>
+          <li>Improved understanding of network configuration and device reliability.</li>
+          <li>Designed a system that could be expanded with additional cameras or detection rules.</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>What This Demonstrates</h2>
+        <p>
+          This project shows the ability to integrate hardware, software, and real-world constraints into a single system.
+          It highlights comfort with IoT concepts, automation logic, and practical deployment concerns.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Part of the AI &amp; Automation Portfolio by Joseph Bulliner
+    </footer>
+  </div>
+</body>
+</html>
