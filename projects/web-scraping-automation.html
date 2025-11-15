@@ -1,1 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Web-Scraping Automation – Joseph Bulliner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <a class="back-link" href="../index.html">← Back to portfolio</a>
+      <div class="header-top">
+        <div>
+          <div class="name">Web-Scraping Automation Pipelines</div>
+          <div class="title">Data Extraction • Product Tracking • Structured Outputs</div>
+        </div>
+      </div>
+    </header>
 
+    <main class="project-layout">
+      <section class="project-meta">
+        <strong>Role:</strong> Automation builder •
+        <strong>Focus:</strong> Structured data pipelines from web sources
+      </section>
+
+      <section class="project-section">
+        <h2>Overview</h2>
+        <p>
+          These pipelines were designed to pull structured information from websites: product data, pricing, and related
+          metadata. The focus was on consistency, resilience, and generating outputs that could actually be used for
+          decision-making or further analysis.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>Core Capabilities</h2>
+        <ul>
+          <li>Automated extraction from target pages using predictable selectors or patterns.</li>
+          <li>Transformation into normalized structures (e.g., JSON, CSV).</li>
+          <li>Handling of pagination, multiple categories, and edge cases.</li>
+          <li>Basic resilience to minor site layout changes.</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>Example Flow</h2>
+        <div class="code-block">
+<pre>for category in categories:
+    page = 1
+    while True:
+        html = fetch_page(category, page)
+        items = parse_items(html)
+        if not items:
+            break
+        for item in items:
+            record = normalize_item(item)
+            save_record(record)
+        page += 1</pre>
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h2>Outcomes</h2>
+        <ul>
+          <li>Built reusable patterns for future scraping and data collection tasks.</li>
+          <li>Improved understanding of site structures, rate limiting, and basic robustness.</li>
+          <li>Demonstrated the ability to go from raw HTML to useful, structured data.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Part of the AI &amp; Automation Portfolio by Joseph Bulliner
+    </footer>
+  </div>
+</body>
+</html>
