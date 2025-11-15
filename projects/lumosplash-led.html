@@ -1,1 +1,73 @@
-<h1>Project Name</h1>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Lumosplash Smart LED Panels – Joseph Bulliner</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <div class="page">
+    <header>
+      <a class="back-link" href="../index.html">← Back to portfolio</a>
+      <div class="header-top">
+        <div>
+          <div class="name">Lumosplash Smart LED Panels</div>
+          <div class="title">Modular Lighting • Automation Routines • Hardware Design</div>
+        </div>
+      </div>
+    </header>
+
+    <main class="project-layout">
+      <section class="project-meta">
+        <strong>Role:</strong> System designer •
+        <strong>Focus:</strong> Modular LED hardware and programmable behaviors
+      </section>
+
+      <section class="project-section">
+        <h2>Overview</h2>
+        <p>
+          Lumosplash is a concept for modular LED panels designed to provide flexible ambient lighting with programmable
+          behavior. The project combines physical panel design, wiring/logical layout, and automation routines to control patterns.
+        </p>
+      </section>
+
+      <section class="project-section">
+        <h2>Key Elements</h2>
+        <ul>
+          <li>Panel layout and modular physical design.</li>
+          <li>Channel mapping and zone-based lighting groups.</li>
+          <li>Preset patterns for calm, active, and alert states.</li>
+          <li>Potential integrations with schedules or sensor inputs.</li>
+        </ul>
+      </section>
+
+      <section class="project-section">
+        <h2>Logic Concepts</h2>
+        <div class="code-block">
+<pre>mode = get_current_mode()  # e.g. "calm", "focus", "alert"
+
+if mode == "calm":
+    run_slow_gradient(pattern="warm_pulse")
+elif mode == "focus":
+    run_subtle_static(pattern="neutral_white")
+elif mode == "alert":
+    run_high_contrast_flash(pattern="red_white")</pre>
+        </div>
+      </section>
+
+      <section class="project-section">
+        <h2>What This Demonstrates</h2>
+        <p>
+          The project ties together hardware constraints, user experience, and automation logic.
+          It shows the ability to think across physical devices, control flows, and end-user impact.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      Part of the AI &amp; Automation Portfolio by Joseph Bulliner
+    </footer>
+  </div>
+</body>
+</html>
