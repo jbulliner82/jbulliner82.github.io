@@ -5,7 +5,7 @@
 
 **AI Operations & Automation Specialist Portfolio**
 
-This repository hosts my professional portfolio website showcasing AI operations, automation, IoT systems, and workflow optimization projects.
+This repository hosts my professional portfolio website showcasing AI operations, automation, machine learning, IoT systems, and workflow optimization projects.
 
 ---
 
@@ -48,7 +48,8 @@ jbulliner82.github.io/
 │   ├── ai-workflow-tools.html
 │   ├── web-scraping-automation.html
 │   ├── lumosplash-led.html
-│   └── ai-cad-3d.html
+│   ├── ai-cad-3d.html
+│   └── showup-ml-predictor.html    # NEW!
 └── README.md              # This file
 ```
 
@@ -110,20 +111,46 @@ Custom tool designs and components using CAD modeling with AI-assisted geometry 
 
 ---
 
+### **7. ShowUp - ML Appointment No-Show Predictor** ⭐ NEW!
+Machine learning system that predicts appointment no-shows with 86.7% accuracy, enabling medical practices to reduce no-show rates by 30-40% through intelligent, risk-based reminder strategies. Saves practices $10,000-$50,000 annually.
+
+**Key Technologies:** Python, FastAPI, scikit-learn, SQLAlchemy, JavaScript, Chart.js  
+**Status:** Complete (Portfolio Project)  
+**Impact:** 86.7% prediction accuracy, distinguishes reliable (16% risk) vs unreliable (77% risk) patients  
+**[💻 GitHub Repo](https://github.com/jbulliner82/showup-appointment-predictor)** | **[📊 Full Case Study](https://www.notion.so/AI-Automation-Portfolio-Joseph-Bulliner-2ac85dcc4dc28034ab4ad3809d2c8fd6)** | **[🌐 Live Demo](https://showup-demo.railway.app)** *(Coming Soon)*
+
+---
+
 ## 🛠️ Technical Stack
+
+### **Backend & ML**
+- Python (FastAPI, Flask)
+- Machine Learning (scikit-learn, pandas, NumPy)
+- Database (SQLAlchemy, PostgreSQL, SQLite)
+- REST API design and development
 
 ### **Frontend & Design**
 - Semantic HTML5
-- Modern CSS (no frameworks - custom design system)
+- Modern CSS (custom design system)
+- Vanilla JavaScript (ES6+)
+- Data visualization (Chart.js)
 - Responsive design principles
-- Performance-optimized static site
+- Performance-optimized static sites
 - Accessibility-focused markup
+
+### **Development & Operations**
+- Git version control
+- API design and documentation
+- Deployment (Railway, Render, GitHub Pages)
+- Environment configuration
+- Testing and validation
 
 ### **Development Approach**
 - Clean, maintainable code
 - Mobile-first responsive design
-- Fast load times (no heavy frameworks)
+- Fast load times (no heavy frameworks when unnecessary)
 - SEO-optimized content structure
+- Production-ready code quality
 
 ---
 
@@ -164,17 +191,20 @@ Deep technical breakdowns, architecture diagrams, implementation details
 - **Notion portfolio** provides technical depth without exposing proprietary code
 - **Controlled access** allows sharing detailed implementations with hiring teams
 - **Comprehensive view** shows both breadth (many projects) and depth (detailed case studies)
+- **Project repositories** showcase actual code, documentation, and deployment skills
 
 ---
 
 ## 🎯 Target Roles
 
 - **AI Operations Specialist** - Designing and implementing AI-driven operational systems
+- **ML Engineer** - Building and deploying machine learning models for real-world applications
 - **Automation Engineer** - Building workflow automation and process optimization
+- **Full-Stack Developer** - End-to-end application development with ML integration
 - **Technical Workflow Designer** - Mapping and automating complex operational processes
 - **Digital Systems Implementation** - Bridging operations and technology
 
-**Anywhere operations and technology collide, I'm useful.**
+**Anywhere operations, machine learning, and technology collide, I'm useful.**
 
 ---
 
@@ -200,20 +230,22 @@ Deep technical breakdowns, architecture diagrams, implementation details
 Break problems into **inputs → states → decisions → outputs**. Then identify where data is missing, where humans get overloaded, and where automation helps instead of hurts.
 
 **What I'm Best At:**  
-Repetitive workflows that burn time, manual data handling, complex status tracking, and any process currently living in someone's head or a spreadsheet.
+Repetitive workflows that burn time, manual data handling, complex status tracking, predictive modeling for operational decisions, and any process currently living in someone's head or a spreadsheet.
 
 **What You Get:**  
-Systems that are trackable, testable, and automatable—built by someone who understands operational constraints and real-world consequences.
+Systems that are trackable, testable, and automatable—built by someone who understands operational constraints, real-world consequences, and can implement end-to-end solutions from data to deployment.
 
 ---
 
 ## 🔄 Portfolio Updates
 
 **Recent Updates:**
+- **December 2025:** Added ShowUp ML No-Show Predictor with 86.7% accuracy
 - Added comprehensive case studies to Notion portfolio
 - Enhanced hire-me site with detailed skills breakdown
-- Created project detail pages for all 6 featured projects
+- Created project detail pages for all 7 featured projects
 - Improved responsive design across all pages
+- Expanded GitHub repositories with production-ready code
 
 **Actively Maintained:** This portfolio is regularly updated with new projects, refined case studies, and technical improvements.
 
@@ -224,6 +256,8 @@ Systems that are trackable, testable, and automatable—built by someone who und
 **Portfolio Content:** © 2024 Joseph Bulliner. All rights reserved.
 
 **Code & Design:** This portfolio site's code and design are proprietary. Please do not reproduce without permission.
+
+**Individual Projects:** See each project's repository for specific licensing information.
 
 **Viewing & Sharing:** Feel free to share links to the portfolio for professional purposes.
 
@@ -236,14 +270,30 @@ Systems that are trackable, testable, and automatable—built by someone who und
 1. **Quick Overview:** Browse [jbulliner82.github.io](https://jbulliner82.github.io)
 2. **Detailed Profile:** Review [hire-joseph-bulliner](https://jbulliner82.github.io/hire-joseph-bulliner/)
 3. **Technical Deep Dive:** Explore [Notion Case Studies](https://www.notion.so/AI-Automation-Portfolio-Joseph-Bulliner-2ac85dcc4dc28034ab4ad3809d2c8fd6)
-4. **Direct Discussion:** Email [jbulliner82@gmail.com](mailto:jbulliner82@gmail.com) with "AI Operations / Automation" in the subject line
+4. **Code Review:** Check out [ShowUp ML Predictor](https://github.com/jbulliner82/showup-appointment-predictor) for a complete full-stack ML project
+5. **Direct Discussion:** Email [jbulliner82@gmail.com](mailto:jbulliner82@gmail.com) with "AI Operations / Automation / ML" in the subject line
 
 ### **What to include when reaching out:**
 - What part of your operation is most painful or manual
 - What tools you currently use (CRMs, internal systems, etc.)
+- Whether you need predictive modeling, automation, or both
 - What "good" would look like six months after we fix it
 
-I'll respond with how I'd analyze it, which data and tools I'd lean on, and what an initial automation roadmap could look like.
+I'll respond with how I'd analyze it, which data and tools I'd lean on, what ML models might apply, and what an initial automation roadmap could look like.
+
+---
+
+## 🌟 Highlighted Achievement
+
+**ShowUp ML Predictor** demonstrates:
+- ✅ End-to-end ML pipeline (data → training → deployment)
+- ✅ Production-ready FastAPI backend with 6-table database
+- ✅ 86.7% prediction accuracy (top-tier for healthcare ML)
+- ✅ Beautiful, responsive frontend with real-time predictions
+- ✅ Clear business impact ($18k annual savings per practice)
+- ✅ Professional documentation and deployment strategy
+
+**This is the type of system I build:** Data-driven, production-ready, and measurably valuable.
 
 ---
 
