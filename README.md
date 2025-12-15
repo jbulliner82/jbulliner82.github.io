@@ -1,7 +1,7 @@
 # Joseph Bulliner - Professional Portfolio
 
 ![Portfolio Status](https://img.shields.io/badge/status-active-success)
-![Last Updated](https://img.shields.io/badge/updated-December%202024-blue)
+![Last Updated](https://img.shields.io/badge/updated-December%202025-blue)
 
 **AI Operations & Automation Specialist Portfolio**
 
