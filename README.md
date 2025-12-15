@@ -253,7 +253,7 @@ Systems that are trackable, testable, and automatable—built by someone who und
 
 ## 📝 License & Usage
 
-**Portfolio Content:** © 2024 Joseph Bulliner. All rights reserved.
+**Portfolio Content:** © 2025 Joseph Bulliner. All rights reserved.
 
 **Code & Design:** This portfolio site's code and design are proprietary. Please do not reproduce without permission.
 
