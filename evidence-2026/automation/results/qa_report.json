@@ -1,0 +1,15 @@
+{
+  "data_type": "synthetic_portfolio_demo",
+  "input_file": "sample_leads.csv",
+  "total_rows": 240,
+  "accepted_rows": 187,
+  "quarantined_rows": 53,
+  "acceptance_rate": 0.7792,
+  "reasons": {
+    "duplicate_record_id": 7,
+    "invalid_email": 22,
+    "invalid_priority": 11,
+    "unsupported_source": 13
+  },
+  "deduplication": "first valid record_id kept in CSV order"
+}
