@@ -1,5 +1,9 @@
 # Joseph Bulliner - Professional Portfolio
 
+> **Current 2026 portfolio:** [Interactive evidence portfolio](https://jbulliner82.github.io/evidence-2026/) · [Online resume versions](https://jbulliner82.github.io/evidence-2026/resumes/) · [Live demos and screenshots](https://jbulliner82.github.io/evidence-2026/gallery.html) · [Reproducible source and tests](https://github.com/jbulliner82/jbulliner82.github.io/tree/main/evidence-2026/automation).
+>
+> Current records and property samples are synthetic demonstrations. No production, patient, learner or employer impact claims are implied.
+
 ![Portfolio Status](https://img.shields.io/badge/status-active-success)
 ![Last Updated](https://img.shields.io/badge/updated-December%202025-blue)
 
