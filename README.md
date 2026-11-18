@@ -166,7 +166,7 @@ Working with safety-regulated logistics, digital tracking systems, and route opt
 **Previous Experience:**
 - Freight Conductor at Canadian National Railroad
 - Rural Carrier Associate at USPS
-- Business Owner at JAB Property Investments
+- Managing Member at JAB Property Investments
 
 **Education:**
 - **Master of Science** – Instructional Technology (Fort Hays State University, 4.0 GPA)
